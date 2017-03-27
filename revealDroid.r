@@ -46,7 +46,6 @@ y <- class[testIndices]
 library("RWeka")
 library(party)
 model <- J48(class~., datos[trainIndices,])
-#pred <- predict(m1,x,type="prob",probability = TRUE)
 pred <- predict(model, x)
 tab<-table(pred, y)
 mconf <- confusionMatrix(tab)
