@@ -8,7 +8,7 @@ of how IagoDroid performs in real environment, we have include an implementation
 For activating the tool you need: a model (in this case it is adapted for J48 kind of models) and a list of individuals.
 
 ```
-./iagoDroid model.rds individuals.txt individual increment maxIterations outputFolder
+./IagoDroid model.rds individuals.txt individual increment maxIterations outputFolder
 ```  
 
 The model.rds file is the model to cheat. The individuals.txt list is a group of individuals that will be reshape to cheat the classifier. From the list, you need to specify
