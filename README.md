@@ -3,6 +3,10 @@
 IagoDroid is a tool focused on cheating a classifier. The tool modifies static features of a malicious app to change its family classification. To show an example 
 of how IagoDroid performs in real environment, we have include an implementation of [RevealDroid](https://bitbucket.org/joshuaga/revealdroid/overview)
 
+IagoDroid was presented in:
+
+Calleja, A., Martín, A., Menéndez, H. D., Tapiador, J., & Clark, D. (2018). Picking on the family: Disrupting android malware triage by forcing misclassification. Expert Systems with Applications, 95, 113-126.
+
 ## Working with IagoDroid
 
 For activating the tool you need: a model (in this case it is adapted for J48 kind of models) and a list of individuals.
@@ -23,8 +27,9 @@ The outputFolder is the results folder where you will find the summary of the ev
 
 We have include an implementation of [RevealDroid](https://bitbucket.org/joshuaga/revealdroid/overview). You can run it with the paper data which is available here:
 
-...
+https://data.mendeley.com/datasets/4sksrpm5vj/
 
 The software generates a model. This model is the input for IagoDroid.
 
 ./revealDroid.r total_arff_drebin_reduced.arff
+
